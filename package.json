@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "webpack_setup",
   "version": "1.0.0",
   "description": "webpack_setup",
   "main": "index.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/goodis86/WEBPACK/issues"
   },
-  "homepage": "https://github.com/goodis86/WEBPACK#readme"
+  "homepage": "https://github.com/goodis86/WEBPACK#readme",
+  "devDependencies": {
+    "webpack": "^5.10.1",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
