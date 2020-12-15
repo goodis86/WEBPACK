@@ -4,7 +4,8 @@
   "description": "webpack_setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,12 @@
   "homepage": "https://github.com/goodis86/WEBPACK#readme",
   "devDependencies": {
     "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
   }
 }
